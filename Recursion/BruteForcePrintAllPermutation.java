@@ -20,9 +20,9 @@ public class BruteForcePrintAllPermutation
 	public static List<List<Integer>> permute(int [] inp_arr){
 	List<List<Integer>> out = new ArrayList<>();
 	List<Integer> temp_ds = new ArrayList<>();
-    boolean [] picked = new boolean[inp_arr.length];
-    recurPermute(inp_arr,temp_ds,out,picked);
-    return out;
+     boolean [] picked = new boolean[inp_arr.length];
+     recurPermute(inp_arr,temp_ds,out,picked);
+     return out;
 	}
 	public static void main(String[] args){  
      int [] inp_arr = {1,2,3};
